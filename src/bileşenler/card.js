@@ -22,6 +22,9 @@ const Card = (makale) => {
 
   const cardDiv = document.createElement('div')
   cardDiv.classList.add('card')
+  cardDiv.addEventListener('click',()=>{
+    console.log(makale.anabaslik)
+  })
   
   const headlineDiv = document.createElement('div')
   headlineDiv.classList.add('headline')
